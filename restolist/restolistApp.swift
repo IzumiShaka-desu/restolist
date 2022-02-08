@@ -11,7 +11,7 @@ import SwiftUI
 struct restolistApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(restoListController: RestoListController())
         }
     }
 }

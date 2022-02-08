@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA7B018227B2B042009ED8E7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BA7B018127B2B042009ED8E7 /* Alamofire */; };
+		BA7B018527B2B61A009ED8E7 /* RestoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B018427B2B619009ED8E7 /* RestoListController.swift */; };
+		BA7B018727B2B940009ED8E7 /* RestoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B018627B2B940009ED8E7 /* RestoDetailController.swift */; };
+		BA7B018927B2B973009ED8E7 /* RestoDetailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B018827B2B973009ED8E7 /* RestoDetailProvider.swift */; };
+		BA8B886827B23B200052F1B5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B886727B23B200052F1B5 /* DetailView.swift */; };
+		BA8B886A27B23CC10052F1B5 /* DetailRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B886927B23CC10052F1B5 /* DetailRestaurant.swift */; };
+		BA8B886D27B28B890052F1B5 /* RestoListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B886C27B28B890052F1B5 /* RestoListProvider.swift */; };
 		BAC282A527B152F400DF076C /* restolistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC282A427B152F400DF076C /* restolistApp.swift */; };
 		BAC282A727B152F400DF076C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC282A627B152F400DF076C /* ContentView.swift */; };
 		BAC282A927B152F600DF076C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC282A827B152F600DF076C /* Assets.xcassets */; };
@@ -14,6 +21,10 @@
 		BAC282B627B152F600DF076C /* restolistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC282B527B152F600DF076C /* restolistTests.swift */; };
 		BAC282C027B152F600DF076C /* restolistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC282BF27B152F600DF076C /* restolistUITests.swift */; };
 		BAC282C227B152F600DF076C /* restolistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC282C127B152F600DF076C /* restolistUITestsLaunchTests.swift */; };
+		BAC282D027B1E2A700DF076C /* RestoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC282CF27B1E2A700DF076C /* RestoList.swift */; };
+		BAC282D327B1EE1500DF076C /* NetworkImage in Frameworks */ = {isa = PBXBuildFile; productRef = BAC282D227B1EE1500DF076C /* NetworkImage */; };
+		BAC282D627B1EF2F00DF076C /* CTRating in Frameworks */ = {isa = PBXBuildFile; productRef = BAC282D527B1EF2F00DF076C /* CTRating */; };
+		BAC282D927B21D5200DF076C /* AboutPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC282D827B21D5200DF076C /* AboutPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA7B018427B2B619009ED8E7 /* RestoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoListController.swift; sourceTree = "<group>"; };
+		BA7B018627B2B940009ED8E7 /* RestoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoDetailController.swift; sourceTree = "<group>"; };
+		BA7B018827B2B973009ED8E7 /* RestoDetailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoDetailProvider.swift; sourceTree = "<group>"; };
+		BA8B886727B23B200052F1B5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BA8B886927B23CC10052F1B5 /* DetailRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRestaurant.swift; sourceTree = "<group>"; };
+		BA8B886C27B28B890052F1B5 /* RestoListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoListProvider.swift; sourceTree = "<group>"; };
 		BAC282A127B152F400DF076C /* restolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = restolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC282A427B152F400DF076C /* restolistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restolistApp.swift; sourceTree = "<group>"; };
 		BAC282A627B152F400DF076C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,8 @@
 		BAC282BB27B152F600DF076C /* restolistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = restolistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC282BF27B152F600DF076C /* restolistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restolistUITests.swift; sourceTree = "<group>"; };
 		BAC282C127B152F600DF076C /* restolistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restolistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAC282CF27B1E2A700DF076C /* RestoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoList.swift; sourceTree = "<group>"; };
+		BAC282D827B21D5200DF076C /* AboutPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA7B018227B2B042009ED8E7 /* Alamofire in Frameworks */,
+				BAC282D627B1EF2F00DF076C /* CTRating in Frameworks */,
+				BAC282D327B1EE1500DF076C /* NetworkImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +93,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA7B018327B2B603009ED8E7 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B018427B2B619009ED8E7 /* RestoListController.swift */,
+				BA7B018627B2B940009ED8E7 /* RestoDetailController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BA8B886B27B28B6D0052F1B5 /* provider */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B886C27B28B890052F1B5 /* RestoListProvider.swift */,
+				BA7B018827B2B973009ED8E7 /* RestoDetailProvider.swift */,
+			);
+			path = provider;
+			sourceTree = "<group>";
+		};
 		BAC2829827B152F400DF076C = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +134,11 @@
 		BAC282A327B152F400DF076C /* restolist */ = {
 			isa = PBXGroup;
 			children = (
+				BA7B018327B2B603009ED8E7 /* controller */,
+				BA8B886B27B28B6D0052F1B5 /* provider */,
+				BAC282D727B2105C00DF076C /* view */,
+				BAC282CE27B1E26100DF076C /* model */,
 				BAC282A427B152F400DF076C /* restolistApp.swift */,
-				BAC282A627B152F400DF076C /* ContentView.swift */,
 				BAC282A827B152F600DF076C /* Assets.xcassets */,
 				BAC282AA27B152F600DF076C /* Preview Content */,
 			);
@@ -127,6 +170,25 @@
 			path = restolistUITests;
 			sourceTree = "<group>";
 		};
+		BAC282CE27B1E26100DF076C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BAC282CF27B1E2A700DF076C /* RestoList.swift */,
+				BA8B886927B23CC10052F1B5 /* DetailRestaurant.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BAC282D727B2105C00DF076C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BAC282A627B152F400DF076C /* ContentView.swift */,
+				BAC282D827B21D5200DF076C /* AboutPageView.swift */,
+				BA8B886727B23B200052F1B5 /* DetailView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +205,11 @@
 			dependencies = (
 			);
 			name = restolist;
+			packageProductDependencies = (
+				BAC282D227B1EE1500DF076C /* NetworkImage */,
+				BAC282D527B1EF2F00DF076C /* CTRating */,
+				BA7B018127B2B042009ED8E7 /* Alamofire */,
+			);
 			productName = restolist;
 			productReference = BAC282A127B152F400DF076C /* restolist.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +282,11 @@
 				Base,
 			);
 			mainGroup = BAC2829827B152F400DF076C;
+			packageReferences = (
+				BAC282D127B1EE1500DF076C /* XCRemoteSwiftPackageReference "NetworkImage" */,
+				BAC282D427B1EF2E00DF076C /* XCRemoteSwiftPackageReference "CTRating" */,
+				BA7B018027B2B042009ED8E7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = BAC282A227B152F400DF076C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +330,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAC282A727B152F400DF076C /* ContentView.swift in Sources */,
+				BA7B018527B2B61A009ED8E7 /* RestoListController.swift in Sources */,
+				BA7B018727B2B940009ED8E7 /* RestoDetailController.swift in Sources */,
+				BAC282D927B21D5200DF076C /* AboutPageView.swift in Sources */,
+				BA8B886D27B28B890052F1B5 /* RestoListProvider.swift in Sources */,
 				BAC282A527B152F400DF076C /* restolistApp.swift in Sources */,
+				BA8B886827B23B200052F1B5 /* DetailView.swift in Sources */,
+				BA7B018927B2B973009ED8E7 /* RestoDetailProvider.swift in Sources */,
+				BAC282D027B1E2A700DF076C /* RestoList.swift in Sources */,
+				BA8B886A27B23CC10052F1B5 /* DetailRestaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +502,7 @@
 				DEVELOPMENT_TEAM = UBQN8N734M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +532,7 @@
 				DEVELOPMENT_TEAM = UBQN8N734M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -585,6 +667,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA7B018027B2B042009ED8E7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		BAC282D127B1EE1500DF076C /* XCRemoteSwiftPackageReference "NetworkImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/NetworkImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		BAC282D427B1EF2E00DF076C /* XCRemoteSwiftPackageReference "CTRating" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StewartLynch/CTRating";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA7B018127B2B042009ED8E7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA7B018027B2B042009ED8E7 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		BAC282D227B1EE1500DF076C /* NetworkImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAC282D127B1EE1500DF076C /* XCRemoteSwiftPackageReference "NetworkImage" */;
+			productName = NetworkImage;
+		};
+		BAC282D527B1EF2F00DF076C /* CTRating */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAC282D427B1EF2E00DF076C /* XCRemoteSwiftPackageReference "CTRating" */;
+			productName = CTRating;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BAC2829927B152F400DF076C /* Project object */;
 }

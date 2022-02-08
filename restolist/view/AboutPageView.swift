@@ -6,10 +6,34 @@
 //
 
 import SwiftUI
+import NetworkImage
 
 struct AboutPageView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack(){
+                Spacer()
+                let _imageUrl="https://media.discordapp.net/attachments/916984491363409930/940466191166763048/2021042706272366ec78fe14a65eb49c3476fae33ec75b.png"
+                NetworkImage(url: URL(string: _imageUrl)) { image in
+                    image.resizable()
+                } placeholder: {
+                    ProgressView()
+                } fallback: {
+                    Image(systemName: "photo")                     }
+                .frame(width: 150, height: 150)
+                .clipped()
+                .background(Color.white).cornerRadius(10)
+                Text("Sesaka Aji Nursyah Bantani")
+                Text("Mobile Developer")
+                Spacer()
+                Spacer()
+                Spacer()
+                Spacer()
+            }.navigationTitle("About").navigationBarTitleDisplayMode(.inline).toolbar{
+            }
+        }.padding(0)
+        
     }
 }
 
